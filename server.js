@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.get('/', function(req, res) {
-    res.send('Happy to be here !');
+    res.send('Hello !');
 });
 //3-Create and Save a Record of a Model
 app.post('/person', function(req, res) {
